@@ -1,9 +1,12 @@
 import React from 'react';
+import MyMap from '../components/map/MyMap'
+import Breweries from '../breweries/Breweries'
 
 export default function Attractions() {
   return(
     <div>
-      <h1>I'm the attractions page</h1>
+      <MyMap/>
+      <Breweries/>
     </div>
   )
 }
